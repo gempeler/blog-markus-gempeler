@@ -4,7 +4,6 @@ date: "2019-03-15"
 title: "Auf Wiedersehen, PHP"
 tags: ["PHP", "Javascript", "React"]
 author: "Markus Gempeler"
-
 ---
 
 ## Auf Wiedersehen, PHP!
@@ -17,5 +16,5 @@ Und ein [Link](https://www.google.com)
 |--|--|
 | Das ist Text in der Zelle 1 | Und hier in der Zelle 2 |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDg0Njk5MzFdfQ==
+eyJoaXN0b3J5IjpbMTQwODEwNDcwNywtMTYwODQ2OTkzMV19
 -->

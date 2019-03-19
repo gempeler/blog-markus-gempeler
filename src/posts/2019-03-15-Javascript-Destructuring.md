@@ -6,8 +6,9 @@ tags: ["Javascript", "Destrukturierung"]
 author: "Markus Gempeler"
 
 ---
-## Das ist der Titel ##
+## Das ist der Titel
+
 Das ist der Text der Post über JS Destrukturierung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Mzg1OTE4NV19
+eyJoaXN0b3J5IjpbMzc3ODk1MDAxXX0=
 -->

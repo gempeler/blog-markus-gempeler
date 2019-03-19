@@ -5,7 +5,6 @@ title: "Auf Wiedersehen, PHP"
 tags: ["PHP", "Javascript", "React"]
 author: "Markus Gempeler"
 ---
-
 ## Auf Wiedersehen, PHP!
 Das ist der Text des PHP Posts. Und noch etwas mehr Text kommt hier.
 Ein Umbruch
@@ -16,5 +15,5 @@ Und ein [Link](https://www.google.com)
 |--|--|
 | Das ist Text in der Zelle 1 | Und hier in der Zelle 2 |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODEwNDcwNywtMTYwODQ2OTkzMV19
+eyJoaXN0b3J5IjpbODI3MjQ1NzgxLC0xNjA4NDY5OTMxXX0=
 -->

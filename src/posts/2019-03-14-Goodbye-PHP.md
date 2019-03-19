@@ -11,10 +11,10 @@ Das ist der Text des PHP Posts. Und noch etwas mehr Text kommt hier.
 Ein Umbruch
 Und noch einer
 Und ein [Link](https://www.google.com)
-|Spalte 1| S |
+|Spalte 1| Spalte 2 |
 |--|--|
-|  |  |
+| Das ist Text in der Zelle 1 | Und hier in der Zelle 2 |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYxODEzMzIsMTg0Njc2Mjk2NV19
+eyJoaXN0b3J5IjpbOTMxNjY2MjQzLDE4NDY3NjI5NjVdfQ==
 -->

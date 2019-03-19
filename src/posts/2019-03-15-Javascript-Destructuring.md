@@ -1,9 +1,15 @@
+---
+path: "/javascript-destrukturierung/"
+date: "2019-03-14"
+title: "Javascript Destrukturierung"
+tags: ["Javascript", "Destrukturierung"]
+author: "Markus Gempeler"
+
+---
 ## Das ist der Titel
 
 Das ist der Text der Post über JS Destrukturierung
 <!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoicGF0aDogL2phdmFzY3JpcHQtZGVzdH
-J1a3R1cmllcnVuZy9cbmV4dGVuc2lvbnM6XG4gIHByZXNldDog
-JydcbiIsImhpc3RvcnkiOlsxNTU2MTMyNDEyLDM3Nzg5NTAwMV
-19
+eyJoaXN0b3J5IjpbMzc3ODk1MDAxLDE1NTYxMzI0MTIsMzc3OD
+k1MDAxXX0=
 -->

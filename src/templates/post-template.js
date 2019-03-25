@@ -4,9 +4,8 @@ import Layout from '../components/layout';
 
 
 const PostTemplate = ({data}) => {
-  const { blogPost } = data // data.markdownRemark holds our post data
-  const { frontmatter, html } = blogPost 
-  console.log(data)
+  console.log(data);
+  const { frontmatter, html } = data.markdownRemark 
   return (
     <Layout >
         <div >
@@ -21,15 +20,15 @@ const PostTemplate = ({data}) => {
 }
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    blogPost(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        title
-      }
+query($path: String!) {
+  markdownRemark(frontmatter: { path: { eq: $path } }) {
+    html
+    frontmatter {
+      date(formatString: "MMMM DD, YYYY")
+      title
     }
   }
+}
 `
 
 export default PostTemplate

@@ -4,18 +4,16 @@ import { Link, graphql, StaticQuery } from "gatsby"
 
 const getPostsData = graphql`
 {
-  allFile(filter: {sourceInstanceName: {eq: "posts"}}) {
+  allFile(filter: {sourceInstanceName: {eq: "nly-posts"}}) {
     edges {
       node {
-        childBlogPost {
+        childMarkdownRemark {
           html
           id
           frontmatter {
             title
-            tags
-            author
-            date
             path
+            date
           }
         }
       }
@@ -36,10 +34,10 @@ const Blog = () => {
           {data.allFile.edges.map( ({node : post}) => {
             return(
               <Link
-              to={post.childBlogPost.frontmatter.path}
-              key={post.childBlogPost.id}
+              to={post.childMarkdownRemark.frontmatter.path}
+              key={post.childMarkdownRemark.id}
               >
-              <p>{post.childBlogPost.frontmatter.title}</p>
+              <p>{post.childMarkdownRemark.frontmatter.title}</p>
               </Link>
             )
           })}

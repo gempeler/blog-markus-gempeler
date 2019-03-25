@@ -7,25 +7,31 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
   {
-    allBlogPost(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 1000
-    ) {
-      edges {
-        node {
-          frontmatter {
-            path
+    allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            parent {
+              id
+            }
+            frontmatter {
+              path
+              date
+              
+            }
           }
         }
       }
     }
-  }
   `).then(result => {
     if (result.errors) {
       return Promise.reject(result.errors)
     }
 
-    result.data.allBlogPost.edges.forEach(({ node }) => {
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      console.log(node.frontmatter)
       createPage({
         path: node.frontmatter.path,
         component: blogPostTemplate,

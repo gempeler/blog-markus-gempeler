@@ -16,9 +16,10 @@ Mit [diesem](https://www.gatsbyjs.org/packages/gatsby-plugin-web-font-loader/) P
 
 `yarn add gatsby-plugin-web-font-loader`
 
-#### Nutzung
+Nutzung
 
-`module.exports = {
+```
+module.exports = {
   plugins: [
     {
       resolve: 'gatsby-plugin-web-font-loader',
@@ -29,4 +30,5 @@ Mit [diesem](https://www.gatsbyjs.org/packages/gatsby-plugin-web-font-loader/) P
       }
     }
   ]
-}`
+}
+```

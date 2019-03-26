@@ -12,6 +12,12 @@ Mit [diesem](https://www.gatsbyjs.org/packages/gatsby-plugin-web-font-loader/) P
 
 #### Installation:
 
+<div class="foo">
+
+*Markdown*
+
+</div>
+
 `yarn add gatsby-plugin-web-font-loader`
 
 #### Nutzung

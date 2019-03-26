@@ -16,7 +16,7 @@ Mit [diesem](https://www.gatsbyjs.org/packages/gatsby-plugin-web-font-loader/) P
 
 #### Nutzung
 
-```
+```javascript
 module.exports = {
   plugins: [
     {

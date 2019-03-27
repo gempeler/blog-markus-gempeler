@@ -25,7 +25,7 @@ Ein HTML block ist ein Gruppe von Zeilen die als HTML Code behandelt werden. Sie
 wird zu:
 
 ```html
-<div class="foo">
+<div class="custom-class">
 <p><em>Markdown</em></p>
 </div>
 ```

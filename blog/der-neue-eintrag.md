@@ -5,13 +5,21 @@ title: Gatsby und Google Fonts
 subtitle: Google Fonts in Gatsby einbinden und nutzen
 ---
 Es gibt verschiedene Möglichkeiten Google Fonts in Gatsby zu nutzen.
+
 ### 1. gatsby-plugin-web-font-loader
+
 Mit [diesem](https://www.gatsbyjs.org/packages/gatsby-plugin-web-font-loader/) Plugin. 
+
 #### Installation:
+
 ```javascript
 yarn add gatsby-plugin-web-font-loader
 ```
+
 #### Nutzung
+
+Im gatsby-config.js file:
+
 ```javascript
 module.exports = {
   plugins: [

@@ -1,8 +1,7 @@
 ---
-path: /Google Fonts in Gatsby/
-date: 2019-04-02T09:02:38.199Z
+date: 2019-04-02
 title: Google Fonts in Gatsby
-subtitle: Google Fonts in Gatsby
+spoiler: Google Fonts in Gatsby
 ---
 Es gibt verschiedene Möglichkeiten Google Fonts in Gatsby zu nutzen.
 

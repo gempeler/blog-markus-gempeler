@@ -39,7 +39,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Oswald', 'Open Sans', 'Montserrat']
+          families: ['Open Sans', 'Open Sans Condensed']
         }
       }
     },

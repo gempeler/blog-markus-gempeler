@@ -1,44 +1,53 @@
 import React from 'react';
 import Layout from '../components/layout';
 import { Link, graphql, StaticQuery } from "gatsby"
+import styles from './blog.module.css';
 
 const getPostsData = graphql`
-{
-  allFile(filter: {sourceInstanceName: {eq: "nly-posts"}}) {
-    edges {
-      node {
-        childMarkdownRemark {
-          html
+  {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 1000
+    ) {
+      edges {
+        node {
           id
+          fields {
+            slug
+          }
           frontmatter {
             title
-            path
-            date
+            date(formatString: "DD MMMM YYYY")
+            spoiler
           }
         }
       }
     }
   }
-}`
+`
   
 
 const Blog = () => {
   return(
     <Layout>
-    <h1>Blog</h1>
     <StaticQuery
       query={getPostsData}
       render={ data => {
+        // aus dem Titel den Pfad machen, alles klein und am Anfang und Ende /
         return(
-          <div>
-          {data.allFile.edges.map( ({node : post}) => {
+          <div className= {styles.maincontainer}>
+          {data.allMarkdownRemark.edges.map( ({node : post}) => {
             return(
-              <Link
-              to={post.childMarkdownRemark.frontmatter.path}
-              key={post.childMarkdownRemark.id}
-              >
-              <p>{post.childMarkdownRemark.frontmatter.title}</p>
-              </Link>
+              <div key={post.id} className={styles.postcontainer}>
+                <div className={styles.date}>{post.frontmatter.date}</div>
+                <Link
+                  to={post.fields.slug}
+                  className={styles.title}
+                >
+                  <div>{post.frontmatter.title}</div>
+                </Link>
+                <div>{post.frontmatter.spoiler}</div>
+              </div>
             )
           })}
           </div>

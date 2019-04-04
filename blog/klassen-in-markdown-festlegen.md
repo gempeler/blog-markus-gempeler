@@ -1,10 +1,7 @@
 ---
-path: /Klassen in Markdown festlegen/
-date: 2019-04-02T09:20:13.251Z
+date: 2019-04-02
 title: Klassen in Markdown festlegen
-subtitle: >-
-  Wie kann man in einem Markdown Dokument mit der Hilfe von HTML Blöcken CSS
-  Klassen angeben kann
+spoiler: Wie kann man in einem Markdown Dokument mit der Hilfe von HTML Blöcken CSS Klassen angeben kann
 ---
 Markdown hat direkt keine Möglichkeit HTML CSS Klassen für Elemente festzulegen. Oft ist man aber in der Situation, dass man einzelne Elemente im Markdown File mit einer CSS Klasse verbinden möchte.
 

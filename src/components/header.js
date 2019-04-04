@@ -13,6 +13,12 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <ul className={styles.nav}>
+        <li>KATEGORIEN</li>
+        <li>#TAGS</li>
+        <li>ARCHIV</li>
+        <li>SUCHE</li>
+      </ul>
     </div>
   </header>
 )

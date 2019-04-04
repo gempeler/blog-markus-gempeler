@@ -1,15 +1,46 @@
 .header {
-  background: purple;
-  margin-bottom: 1.45 rem;
+  background: white;
+  line-height: normal;
+  box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.1);
+
 }
 
 .container {
   margin: 0 auto;
-  max-width: 960px;
-  padding: 1.45rem 1.0875rem;
+  max-width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.15em; 
+  margin:0;
 }
 
 .link {
-  color: white;
+  color: #663399;
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  justify-content: right;
+  align-items: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  color: #663399;
+}
+
+.nav li {
+  padding: 0 1rem;
 }

@@ -1,0 +1,17 @@
+.maincontainer {
+  margin-bottom: 100px;
+}
+
+.postcontainer {
+  margin-top: 20px;
+}
+.date {
+  font-style: italic;
+  color: #b8b8b8b8;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}

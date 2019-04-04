@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout';
+import styles from './post-template.module.css';
 
 
 const PostTemplate = ({data}) => {
@@ -8,9 +9,8 @@ const PostTemplate = ({data}) => {
   const { frontmatter, html } = data.markdownRemark 
   return (
     <Layout >
-        <div >
+        <div className={styles.postcontainer}>
         <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
         <div
           dangerouslySetInnerHTML={{ __html: html }}
         /> 
@@ -21,7 +21,7 @@ const PostTemplate = ({data}) => {
 
 export const pageQuery = graphql`
 query($path: String!) {
-  markdownRemark(frontmatter: { path: { eq: $path } }) {
+  markdownRemark(fields: { slug: { eq: $path } }) {
     html
     frontmatter {
       date(formatString: "MMMM DD, YYYY")

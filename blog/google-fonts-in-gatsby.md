@@ -2,6 +2,7 @@
 date: 2019-04-02
 title: Google Fonts in Gatsby
 spoiler: Google Fonts in Gatsby
+tags: ["Google Fonts", "Gatsby"]
 ---
 Es gibt verschiedene Möglichkeiten Google Fonts in Gatsby zu nutzen.
 

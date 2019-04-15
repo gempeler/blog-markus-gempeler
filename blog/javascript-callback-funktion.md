@@ -2,6 +2,7 @@
 title: 'JavaScript Callback Funktionen'
 date: 2019-04-05
 spoiler: 'So funktioniert das Prinzip einer Callback Funktion in JavaScript'
+tags: ["JavaScript", "Callback"]
 ---
 
 Eine Callback Funktion (cb) wird von einer anderen Funktion aufgerufen - deshalb Callback. Die cb wird als Argument einer anderen Funktion übergeben. Meist definiert man die Callback Funktion mittels einer Arrow Funktion direkt in der Parameterliste.

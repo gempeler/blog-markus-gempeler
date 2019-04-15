@@ -1,6 +1,6 @@
 ---
 title: "Was ist eine React Komponente?"
-spoiler: "Was ist eigentlich genau eine React Komponente?"
+spoiler: "Was ist eine React Komponente?"
 date: 2019-04-09
 tags: ["JavaScript", "JSX", "React", "Component"]
 ---

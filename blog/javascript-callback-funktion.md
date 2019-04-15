@@ -1,7 +1,7 @@
 ---
 title: 'JavaScript Callback Funktionen'
 date: 2019-04-05
-spoiler: 'So funktioniert das Prinzip einer Callback Funktion in JavaScript'
+spoiler: 'Das Prinzip einer Callback Funktion in JavaScript'
 tags: ["JavaScript", "Callback"]
 ---
 

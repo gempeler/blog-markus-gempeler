@@ -39,6 +39,7 @@ Resolve oder reject geben einen Wert zurück, dieser wird dann als value Paramet
 Man kann auch mehrer .then in eine Kette machen:
 
 ```javascript
+...
 p.then( value => {
   console.log(value);
   return value
@@ -58,6 +59,7 @@ Die Ausgabe ist dann zwei Mal "resolved".
 Nun kann man aber anstatt eines normalen Wertes auch eine Promise zurückgeben! Macht man dies, so wir die Ausführung des zweiten .then erst gemacht, wenn diese Promise erfüllt ist. 
 
 ```javascript
+...
 p.then( value => {
   console.log(value);
   return new Promise ( (resolve, reject) => {
@@ -82,6 +84,7 @@ Damit können also asynchrone Aufgaben 'gechaint' werden, das heisst der Reihe n
 Es kann auch ein Error ausgelöst werfen, falls etwas schief geht:
 
 ```javascript
+...
 p.then( value => {
   console.log(value);
   return new Promise ( (resolve, reject) => {

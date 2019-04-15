@@ -1,6 +1,6 @@
 ---
 title: "Was ist JSX?"
-spoiler: "Was ist eigentlich genau JSX und wie funktioniert es?"
+spoiler: "Was ist JSX und wie funktioniert es?"
 date: 2019-04-09
 tags: ["JavaScript", "JSX", "React"]
 ---

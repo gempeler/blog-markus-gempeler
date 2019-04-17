@@ -3,6 +3,7 @@ date: 2019-04-16
 title: CSS !important und React
 spoiler: Was kann man in React machen, wenn eine CSS Library !important verwendet?
 tags: ["CSS", "React"]
+category: howto
 ---
 Es gibt viele Frameworks, die ungeachtet aller Warnungen !important verwenden. Semantic UI oder auch bootstrap! Wie kann man am besten CSS welches mit !important dekoriert ist, überschreiben?
 

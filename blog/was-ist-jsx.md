@@ -3,6 +3,7 @@ title: "Was ist JSX?"
 spoiler: "Was ist JSX und wie funktioniert es?"
 date: 2019-04-09
 tags: ["JavaScript", "JSX", "React"]
+category: info
 ---
 
 JSX ist eine **Erweiterung** von JavaScript. Es wird ein **Präprozessor** benötigt, um JSX in JS zu wandeln. In der Regel wird dafür **[Babel](https://babeljs.io/)** verwendet.

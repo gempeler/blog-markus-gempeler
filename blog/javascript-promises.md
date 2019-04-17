@@ -3,6 +3,7 @@ date: 2019-04-05
 title: Promises
 spoiler: Promises in Javascript - ein kleiner Überblick.
 tags: ["JavaScript", "Promises"]
+category: info
 ---
 Eine Promise ist ein Ersatz für eine Callback Funktion.
 

@@ -3,6 +3,7 @@ title: 'Promises Chaining in Javascript'
 date: 2019-04-05
 spoiler: 'Die Handler einer Promise in JavaScript können aneinnander gereiht werden (Chaining).'
 tags: ["JavaScript", "Promises", "Chaining"]
+category: info
 ---
 
 Die *.then(handler)* Methode einer Promise gibt **immer** eine Promise zurück. Dies wird in *handler* erfüllt indem entweder ein Wert, ein Error oder wiederum eine Promise zurückgegeben wird. 

@@ -3,6 +3,7 @@ date: 2019-04-04
 title: Globale Styles in Gatsby
 spoiler: Wo definiert man am besten globale CSS Styles in einer Gatsby App ?
 tags: ["Gatsby", "CSS"]
+category: best
 ---
 Es gibt verschiedene Möglichkeiten globale Styles zu definieren
 

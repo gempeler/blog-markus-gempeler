@@ -7,7 +7,7 @@
 }
 .date {
   font-style: italic;
-  color: #b8b8b8b8;
+  color: #3a3a3ab8;
 }
 
 .title {
@@ -15,4 +15,30 @@
   font-weight: bold;
   text-decoration: none;
   color: #663399;
+}
+
+.info {
+  background: #7ab3e9;
+  color: white;
+}
+.best {
+  background: rgb(253, 161, 133);
+  color: white;
+}
+.howto {
+  background: rgb(155, 216, 155);
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.container span {
+  margin-left: 10px;
+  font-style: italic;
+  font-size: 16px;
+  padding: 0px 10px;
+  border-radius:5px 5px 5px 5px;
+  
 }

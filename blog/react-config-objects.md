@@ -3,7 +3,7 @@ date: 2019-04-17
 title: React Configuration Objects
 spoiler: Konfigurations-Daten hält man am besten in separaten Objekten
 tags: ["JavaScript", "React"]
-category: Best practice
+category: best
 ---
 
 Im folgenden Code hat es zweit ternary Ausdrücke die sich ähnlich sind. 

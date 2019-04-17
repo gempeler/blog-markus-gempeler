@@ -3,6 +3,7 @@ date: 2019-04-15
 title: CSS Selektoren und Kombinatoren
 spoiler: ... oder was ist eigentlich der Unterschied zwischen .a .b und .a.b
 tags: ["CSS", "Selektoren", "Kombinatoren"]
+category: info
 ---
 Vergeblich sucht man in den CSS Spezifikationen nach einer Kombination der Art `.class1.class2`. Dies hat einen einfachen Grund: es ist keine **CSS Kombination**!
 

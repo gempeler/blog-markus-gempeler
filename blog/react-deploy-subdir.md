@@ -19,3 +19,5 @@ Wenn man react-router benutzt, dann sollte man noch das Attribut basename angebe
 ```
 
 Tut man dies nicht, so kann man alternativ dazu in jedem Route die PUBLIC_URL angeben, das ist aber die schlechtere Variante ;-)
+
+[Siehe auch](https://medium.com/@svinkle/how-to-deploy-a-react-app-to-a-subdirectory-f694d46427c1)

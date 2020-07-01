@@ -12,6 +12,12 @@ Per default geht create-react-app davon aus, dass der Build in dem Root Verzeich
 "homepage": "http://www.meinserver.ch/subdir",
 ```
 
+Die bessere Variaten ist, in einem .env File die PUBLIC_URL Variable zu definieren:
+
+```javascript
+PUBLIC_URL=http://www.meinserver.ch/subdir
+```
+
 Wenn man react-router benutzt, dann sollte man noch das Attribut basename angeben:
 
 ```javascript

@@ -1,5 +1,5 @@
 ---
-date: 2019-04-16
+date: 2020-11-16
 title: Blog - JS Frontende
 spoiler: Dmitri Pavlutin - Thoughts on Frontend development
 tags: ["React", "JSS", "CSS"]
